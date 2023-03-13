@@ -1,0 +1,230 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.2em;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/bnr.png") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+  	color: #fff;
+  	font-size: 14px;
+  	font-weight: 600;
+  	letter-spacing: 1px;
+  	margin: 0px 0px 0px 25px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: url("../images/li.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .navbar-nav .nav-link.active{
+	background: url("../images/li.png") bottom center no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner h4{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #008ed6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.inner-banner h1{
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #fff;
+	letter-spacing: 1px;
+	margin: 20px 0px;
+}
+.inner-banner p{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.7em;
+	color: #999999;
+}
+.inner-banner .button-group{
+	width: 100%;
+	padding: 40px 0px 0px 0px;
+}
+.inner-banner .button-group .btn-primary{
+	padding: 20px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+	transition: 1s;
+}
+.inner-banner .button-group .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #008ed6;
+	color: #008ed6;
+}
+.inner-banner .button-group .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #008ed6;
+	color: #008ed6;
+}
+.inner-banner .button-group .btn-info{
+	padding: 20px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	background: transparent;
+	border: 1px solid #999;
+	color: #fff;
+	margin: 0px 0px 0px 20px;
+}
+.inner-banner .button-group .btn-info:hover{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+}
+.inner-banner .button-group .btn-info:foucs{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+}
+
+/* common css cord for title */
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.title h4{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #008ed6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.title h1{
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #1a1a1a;
+	letter-spacing: 1px;
+	margin: 0px 0px 15px;
+}
+
+.features{
+	width: 100%;
+	padding: 80px 0px;
+}
+.features .title{
+	width: 100%;
+	text-align: center;
+}
+.inner-features{
+	width: 100%;
+	padding: 20px 55px;
+	text-align: center;
+}
+.inner-features .icon-box{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 0px auto;
+	border-radius: 100%;
+	border: 1px solid #999;
+}
+.inner-features h4{
+	font-size: 22px;
+	color: #000;
+	line-height: 1.2em;
+	margin: 10px 0px;
+}
+.inner-features p{
+	font-size: 14px;
+	color: #999;
+	line-height: 1.7em;
+}
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about-long .title{
+	margin: 50px 0px 0px;
+	padding: 0px 0px 20px;
+}
+.about-long h1{
+	font-size: 35px;
+	color: #000;
+}
+.about-long h4{
+	font-size: 16px;
+}
+.about-long p{
+	font-size: 16px;
+	color: #999;
+}
+.about-long ul{
+	display: block;
+	padding: 0px;
+	margin: 30px 0px 0px;
+}
+.about-long ul li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	margin: 0px 0px 10px;
+}
+.about-long ul li img{
+	width: 16px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
+.about-sort{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+.about-sort .title{
+	padding: 100px 0px 20px;
+}
+.about-sort .title h1{
+	font-size: 40px;
+}
+.about-sort p{
+	font-size: 18px;
+	color: #999;
+}
